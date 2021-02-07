@@ -25,6 +25,7 @@ public class Main {
                     kg = num3 / 1000;
                     lb = num3/453.59;
                     oz = num3/28.35;
+                    System.out.println("Результат:");
                     System.out.println("Граммы: " + gr);
                     System.out.println("Килораммы: " + kg);
                     System.out.println("Фунты: " + lb);
@@ -37,6 +38,7 @@ public class Main {
                     kg = num3;
                     lb = num3 * 1000/453.59;
                     oz = num3 * 1000/28.35;
+                    System.out.println("Результат:");
                     System.out.println("Граммы: " + gr);
                     System.out.println("Килораммы: " + kg);
                     System.out.println("Фунты: " + lb);
@@ -49,6 +51,7 @@ public class Main {
                     kg = num3 * 453.59 / 1000;
                     lb = num3;
                     oz = num3 * 453.59/28.35;
+                    System.out.println("Результат:");
                     System.out.println("Граммы: " + gr);
                     System.out.println("Килораммы: " + kg);
                     System.out.println("Фунты: " + lb);
@@ -57,10 +60,11 @@ public class Main {
                 case 4:
                     System.out.println("Введите количество унций");
                     num3 = z.nextDouble();
-                    gr = num3 * 453.59;
-                    kg = num3 * 453.59 / 1000;
+                    gr = num3 * 28.35;
+                    kg = num3 * 28.35 / 1000;
                     lb = num3/16;
                     oz = num3;
+                    System.out.println("Результат:");
                     System.out.println("Граммы: " + gr);
                     System.out.println("Килораммы: " + kg);
                     System.out.println("Фунты: " + lb);
@@ -83,6 +87,7 @@ public class Main {
                     kg = num3 / 1609.34;
                     lb = num3 / 0.9144;
                     oz = num3 / 0.3048;
+                    System.out.println("Результат:");
                     System.out.println("Метры: " + gr);
                     System.out.println("Мили: " + kg);
                     System.out.println("Ярды: " + lb);
@@ -95,6 +100,7 @@ public class Main {
                     kg = num3;
                     lb = num3 * 1760;
                     oz = num3 * 5280;
+                    System.out.println("Результат:");
                     System.out.println("Метры: " + gr);
                     System.out.println("Мили: " + kg);
                     System.out.println("Ярды: " + lb);
@@ -107,6 +113,7 @@ public class Main {
                     kg = num3 / 1760;
                     lb = num3;
                     oz = num3 * 3;
+                    System.out.println("Результат:");
                     System.out.println("Метры: " + gr);
                     System.out.println("Мили: " + kg);
                     System.out.println("Ярды: " + lb);
@@ -119,6 +126,7 @@ public class Main {
                     kg = num3 * 453.59 / 1000;
                     lb = num3 / 3;
                     oz = num3;
+                    System.out.println("Результат:");
                     System.out.println("Метры: " + gr);
                     System.out.println("Мили: " + kg);
                     System.out.println("Ярды: " + lb);
