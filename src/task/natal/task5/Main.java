@@ -19,7 +19,7 @@ public class Main {
                     System.out.println(num1 - num2);
                     break;
                 case "/":
-                    if (num2 == 0.00) {
+                    if (num2 == 0) {
                         System.out.println("На ноль делить нельзя");
                     } else {
                         System.out.println(num1 / num2);
