@@ -11,18 +11,22 @@ public class Main {
         Scanner t = new Scanner(System.in);
         int num1 = t.nextInt();
         int[] a = new int[num1];
-        System.out.println("Введите элементы массива");
-        for (int i = 0; i < num1; i++) {
+        if (num1 == 0) {
+            System.out.println("Массив пустой");
+        } else {
+            System.out.println("Введите элементы массива");
+            for (int i = 0; i < num1; i++) {
             a[i] = t.nextInt();// Заполняем массив элементами
-            if (a[i] == x || a[i] == y || a[i] == z) {
-                System.out.println("Данное значение имеется в константах");
                 // Проверка, есть ли введенное значение в константах
+                if (a[i] == x || a[i] == y || a[i] == z) {
+                    System.out.println("Данное значение имеется в константах");
+                }
 
-            }
 
         }
 
 
+
         }
 
-    }
+    }}
