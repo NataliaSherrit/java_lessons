@@ -2,7 +2,6 @@ package task.natal.task10;
 import java.util.Scanner;
 
 public class Main {
-    static int j;
     public static void main(String[] args) {
         System.out.println("Введите количество строк матрицы");
         Scanner t = new Scanner(System.in);
