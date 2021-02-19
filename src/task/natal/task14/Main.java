@@ -8,7 +8,7 @@ public class Main {
         int min;
         min = max = array[0];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) Math.round((Math.random() * 40) - 20);
+            array[i] = (int)((Math.random() * 40) - 20);
             if (array[i] < min) {
                 min = array[i];
             }
