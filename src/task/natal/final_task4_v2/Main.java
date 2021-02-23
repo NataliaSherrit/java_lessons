@@ -1,5 +1,4 @@
-package task.natal.final_task4;
-
+package task.natal.final_task4_v2;
 import java.util.Scanner;
 
 public class Main {
@@ -33,10 +32,23 @@ public class Main {
                     } else {
                         if (i != 3) {
                             System.out.println("Подсказка уже недоступна");
+                            l1 = t.nextLine();
+                            if(l1.equals("Заархивированный вирус")) {
+                                System.out.println("Правильно");
+                                fin = true;
+                                break;
+                            }
                         } else {
                             System.out.println("Подсказка уже недоступна");
-                            System.out.println("Обидно, приходи в другой раз");
-                            break;
+                            l1 = t.nextLine();
+                            if(l1.equals("Заархивированный вирус")) {
+                                System.out.println("Правильно");
+                                fin = true;
+                                break;
+                            } else {
+                                System.out.println("Обидно, приходи в другой раз");
+                                break;
+                            }
                         }
                     }
                 default: {
